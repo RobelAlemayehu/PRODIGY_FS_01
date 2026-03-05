@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "node init && nodemon server.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
